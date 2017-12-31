@@ -16,7 +16,7 @@
   + [90 Days to Success in Consulting]()
   + [Case in Point]()
   + [The Boston Consulting Group on Strategy: Classic Concepts and New Perspectives]()
-  + [IT咨询指南]()
+  + [IT咨询指南](./IT咨询指南.md)
   + [顶级咨询]()
   + [The Top Consultant - Developing Your Skills For Greater Effectiveness]()
   + [Vault Guide to the Case Interview (2008 EDITION)]()
@@ -31,7 +31,7 @@
   + [管理咨询优绩通鉴]()
   + [高绩效咨询]()
   + [甲骨文咨询之道](./甲骨文咨询之道.md)
-  + [资料搜索及下载](./资料搜索及下载.md)
+  + [尽职调查](./尽职调查.md)
 
 ## resource
 
