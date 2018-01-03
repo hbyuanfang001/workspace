@@ -1,1 +1,1 @@
-# README+ [IT咨询](./IT咨询.md)+ [javaWeb](./javaweb.md)+ [python数据科学](./python数据科学.md)+ [python数据分析](./python数据分析.md)+ [pyLIB](pylib.md)  + [机器学习概论](./机器学习/机器学习概论.md)  + [回归预测及相应的降维技术](./机器学习/回归预测及相应的降维技术.md)  + [分类器](./机器学习/分类器.md)  + [人工神经网络](./机器学习/人工神经网络.md)  + [聚类](./机器学习/聚类.md)  + [推荐系统](./机器学习/推荐系统.md)
+# README+ [IT咨询](./IT咨询.md)+ [机器学习算法](./机器学习/机器学习概论.md)+ [javaWeb](./javaweb.md)+ [python](./python基础.md)  + [python数据科学](./python数据科学.md)  + [python数据分析](./python数据分析.md)  + [pyLIB](pylib.md)
