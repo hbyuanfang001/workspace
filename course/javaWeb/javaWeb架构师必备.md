@@ -43,44 +43,77 @@
 ## javaWeb架构工具
   + 操作系统
   
-  Linux（必备）、某软的
+    + Linux(必备)
+    + 某软的
   
   + 负载均衡
   
-  DNS、F5、LVS、Nginx、OpenResty、HAproxy、负载均衡SLB（阿里云）
+    + DNS
+    + F5
+    + LVS
+    + Nginx
+    + OpenResty
+    + HAproxy
+    + 负载均衡SLB(阿里云)
   
   + 分布式框架
   
-  Dubbo、Motan、Spring-Could
+    + Dubbo
+    + Motan
+    + Spring Could
   
   + 数据库中间件
   
-  DRDS （阿里云）、Mycat、360 Atlas、Cobar (不维护了)
+    + DRDS(阿里云)
+    + Mycat
+    + 360 Atlas
+    + Cobar(不维护了)
   
   + 消息队列
   
-  RabbitMQ、ZeroMQ、Redis、ActiveMQ、Kafka
+    + RabbitMQ
+    + ZeroMQ
+    + Redis
+    + ActiveMQ
+    + Kafka
   
   + 注册中心
   
-  Zookeeper、Redis
+    + Zookeeper
+    + Redis
   
   + 缓存
   
-  Redis、Oscache、Memcache、Ehcache
+    + Redis
+    + Oscache
+    + Memcache
+    + Ehcache
   
   + 集成部署
   
-  Docker、Jenkins、Git、Maven
+    + Docker
+    + Jenkins
+    + Git
+    + Maven
   
   + 存储
   
-  OSS、NFS、FastDFS、MogileFS
+    + OSS
+    + NFS
+    + FastDFS
+    + MogileFS
   
   + 数据库
   
-  MySQL、Redis、MongoDB、PostgreSQL、Memcache、HBase
+    + MySQL
+    + Redis
+    + MongoDB
+    + PostgreSQL
+    + Memcache
+    + HBase
   
   + 网络
   
-  专用网络 VPC、弹性公网 IP、CDN
+    + 专用网络 VPC
+    + 弹性公网 IP
+    + CDN

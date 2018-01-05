@@ -1,6 +1,7 @@
 # NoSQL应用实例
 
 + [参考书](#参考书)
++ [主流NoSQL介绍及适用场景](#主流NoSQL介绍及适用场景)
 + [新浪微博Redis](#新浪微博redis)
 + [淘宝数据平台Oceanbase,Tair](#淘宝数据平台oceanbase,tair)
 + [优酷运营数据分析HBase,MongoDB,Redis](#优酷运营数据分析HBase,MongoDB,Redis)
@@ -9,7 +10,76 @@
 ## 参考书
   - MongoDB:The Definitive Guide(Kristina Chodorow)
   - NoSQL精粹(Pramod J.Sadalage,Martin Fowler)
+
+## 主流NoSQL介绍及适用场景
+
+- Redis
+
+  - Redis是一个开源的使用ANSI C语言编写、支持网络、可基于内存亦可持久化的日志型、Key-Value数据库，并提供多种语言的API。从2010年3月15日起，Redis的开发工作由VMware主持。从2013年5月开始，Redis的开发由Pivotal赞助
   
+  - 适用场景
+  
+  	- 数据变化较少，执行预定义查询，进行数据统计的应用程序
+  	- 需要提供数据版本支持的应用程序
+    - 例如：股票价格、数据分析、实时数据搜集、实时通讯、分布式缓存
+    
+- MongoDB
+
+  - MongoDB 是一个基于分布式文件存储的数据库。由 C++ 语言编写。旨在为 WEB 应用提供可扩展的高性能数据存储解决方案
+  
+  - MongoDB 是一个介于关系型数据库和非关系型数据库之间的产品，是非关系型数据库当中功能最丰富，最像关系型数据库的非关系型数据库
+  
+  - 适用场景
+  
+  	- 需要动态查询支持
+  	- 需要使用索引而不是map/reduce功能
+  	- 需要对大数据库有性能要求
+    - 需要使用CouchDB但因为数据改变太频繁而占满内存
+  
+- Neo4j
+
+  - Neo4j是一个高性能的NoSQL图形数据库，它将结构化数据存储在网络上而不是表中。它是一个嵌入式的、基于磁盘的、具备完全的事务特性的Java持久化引擎，但是它将结构化数据存储在网络(从数学角度叫做图)上而不是表中。Neo4j也可以被看作是一个高性能的图引擎，该引擎具有成熟数据库的所有特性
+  
+  - 适用场景
+  
+  	- 适用于图形一类数据
+  	- 这是 Neo4j与其他NoSQL数据库的最显著区别
+    - 例如：社会关系，公共交通网络，地图及网络拓谱
+    
+- Cassandra
+
+  - Apache Cassandra 是一套开源分布式 Key-Value 存储系统。它最初由 Facebook 开发，用于储存特别大的数据。 Cassandra 不是一个数据库，它是一个混合型的非关系的数据库，类似于Google 的 BigTable。Cassandra 的数据模型是基于列族（Column Family）的四维或五维模型
+  
+  - 适用场景
+  
+  	- 银行业，金融业
+    - 写比读更快
+    
+- HBase
+
+  - HBase是一个分布式的、面向列的开源数据库，该技术来源于Google论文“Bigtable：一个结构化数据的分布式存储系统”。就像Bigtable利用了Google文件系统（File System）所提供的分布式数据存储一样，HBase在Hadoop之上提供了类似于Bigtable的能力。它是一个适合于非结构化数据存储的数据库。另一个不同的是HBase基于列的而不是基于行的模式
+  
+  - 适用场景
+  
+  	- 对大数据进行随机、实时访问的场合
+    - 例如： Facebook消息数据库
+    
+- CouchDB
+
+  - CouchDB 是一个开源的面向文档的数据库管理系统，可以通过 RESTful JavaScript Object Notation (JSON) API 访问。术语 “Couch” 是 “Cluster Of Unreliable CommodityHardware” 的首字母缩写，它反映了 CouchDB 的目标具有高度可伸缩性，提供了高可用性和高可靠性，即使运行在容易出现故障的硬件上也是如此
+  
+  - 适用场景
+  
+  	- 数据变化较少，执行预定义查询，进行数据统计的应用程序
+  	- 需要提供数据版本支持的应用程序。
+    - 例如： CRM、CMS系统。 master-master复制对于多站点部署是非常有用的。
+    
+- ES/Solr
+  - 适用场景
+  
+    - 外置搜索引擎
+    - 日志分析
+ 
 ## 新浪微博Redis
 
 - 新浪微博面临的问题如下：
